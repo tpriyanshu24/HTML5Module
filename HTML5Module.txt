@@ -1,0 +1,37 @@
+(1)  What are the new tags added in HTML5 ?
+Ans: Short Answer: Well, you have a good bunch of new, handy markup tags in HTML5.
+
+Long Answer: New in HTML 5—
+
+1) The doctype: You need not to write down a long and messy doctype tag. Just type <!DOCTYPE html> and you are good to go.
+2) The charset: You write <meta charset="UTF-8"> to define the character set of your document. No need to add http-equiv or text/html anymore.
+3) Structural Tags: You now have <section>, <header>, <main>, <footer>, <nav>, <menu>, <article>, <aside>, <figure> to structure your markup well. Rather than using a div, consider any one of these elements depending on their nature and your need.
+4) Form fields: You have way more options than just the text or password. Listing date, datetime, datetime-local, month, week, time, number, range, email, url, search; you can do more with the forms with HTML5.
+5) Media Elements: You now have <audio> and <video> tags to embed rich media without having to write a messy code. Both make use of <source> tag within.
+6) Canvas: <canvas> allows you to add a canvas-like space to webpages; handy to pull dynamic graphs with JavaScript. You can bring it one step further by adding a JavaScript-driven game.
+7) Data-marking: <command>, <datalist>, <keygen>, <mark>, <meter>, <output>, <progress>, <time> tags mark the data according to the nature.
+Context-menus: Add and control context-menus on your webpages. More here.
+Asynchronous Scripts: You have an additional attribute (async) for the script tag, that tells the browser to load that script asynchronously; i.e. load scripts in parallel, without blocking the page rendering. Also, you don’t have to add “text/javascript” every time you embed a JavaScript, writing just <script> will do.
+
+(2)  How to embed audio and video in a webpages ?
+Ans:  You have audio and video tags that allow you to add audio and video directly to your pages.
+If you want to insert content from YouTube you can copy their embed code or create the embed programmatically.
+Other media hosting providers also give you the embed code they’d like you to use, you’ll have to find it in their user interfaces
+
+(3)  Semantic element in HTML5 ?
+Ans: HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed.
+Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.
+Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways. Rather than using the <table></table> to describe information using a table, programmers would use them to position other elements on a page.
+As the use of visually designed layouts progressed, programmers started to use a generic “non-semantic” tag like <div>. They would often give these elements a class or id attribute to describe their purpose. For example, instead of <header> this was often written as <div class="header">.
+As HTML5 is still relatively new, this use of non-semantic elements is still very common on websites today. 
+
+(4)  Canvas and SVG tags ?
+Ans: SVG:- 1)SVG has better scalability. So it can be printed with high quality at any resolution
+2) SVG gives better performance with smaller number of objects or larger surface.
+3) SVG can be modified through script and CSS
+4) SVG is vector based and composed of shapes.
+
+CANVAS:-1) Canvas has poor scalability. Hence it is not suitable for printing on higher resolution
+2) Canvas gives better performance with smaller surface or larger number of objects.
+3) Canvas can be modified through script only.
+4) Canvas is raster based and composed of pixel.
